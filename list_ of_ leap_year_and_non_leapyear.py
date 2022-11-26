@@ -2,12 +2,12 @@ from datetime import date, datetime
 import datetime
 year1 = int(input("Enter Starting year : "))
 month1 = int(input("Enter Starting month : "))
-day1 = int(input("Enter Starting day : "))
-d = date(year1,month1,day1)
+date1 = int(input("Enter Starting date : "))
+d = date(year1,month1,date1)
 year2 = int(input("Enter Ending year : "))
 month2 = int(input("Enter Ending month : "))
-day2 = int(input("Enter Ending day : "))
-b= date(year2,month2,day2)
+date2 = int(input("Enter Ending date : "))
+b= date(year2,month2,date2)
 l1=[]
 l2=[]
 print("Range: ")
